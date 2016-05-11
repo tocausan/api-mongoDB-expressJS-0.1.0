@@ -1,0 +1,12 @@
+doctype html
+html(ng-app)
+    head
+        title= title
+        link(rel='stylesheet', href='/bower_components/foundation/css/foundation.min.css')
+        link(rel='stylesheet', href='/style/font-face.css')
+        link(rel='stylesheet', href='/style/style.css')
+        script(src='/bower_components/angular/angular.js')
+    body
+        include header
+        section(class='row')
+            block content
